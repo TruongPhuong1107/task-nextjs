@@ -1,12 +1,5 @@
-<<<<<<< HEAD
 import "../styles/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
-}
-
-export default MyApp;
-=======
 import "../global.css";
 import Script from "next/script";
 import Head from "next/head";
@@ -38,4 +31,3 @@ export default function MyApp({ Component, pageProps }) {
     </>
   );
 }
->>>>>>> 600c84398ae2ddc5c3f700d3c87c848d09037fd0
